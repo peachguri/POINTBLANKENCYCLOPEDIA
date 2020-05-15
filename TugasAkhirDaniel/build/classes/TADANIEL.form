@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="judulbox" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="resetb" min="-2" pref="101" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="exitb" min="-2" pref="88" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane1" alignment="0" min="-2" pref="547" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="11" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Component id="mapbox" min="-2" pref="111" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="modebox" min="-2" pref="110" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="weaponbox" min="-2" pref="110" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="charbox" min="-2" pref="111" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="judulbox" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="mapbox" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="modebox" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="weaponbox" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="charbox" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="104" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="resetb" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="exitb" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="287" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="judulbox">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="POINT BLANK ENCYCLOPEDIA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="mapbox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="24">
+            <StringItem index="0" value="MAP"/>
+            <StringItem index="1" value="BURNINGHALL"/>
+            <StringItem index="2" value="TWOTOWERS"/>
+            <StringItem index="3" value="MSTATION"/>
+            <StringItem index="4" value="CRACKDOWN"/>
+            <StringItem index="5" value="PORTACABA"/>
+            <StringItem index="6" value="REDROCK"/>
+            <StringItem index="7" value="LIBRARY"/>
+            <StringItem index="8" value="MINIINDONESIA"/>
+            <StringItem index="9" value="LUXVILLE"/>
+            <StringItem index="10" value="BLOWCITY"/>
+            <StringItem index="11" value="SAFEHOUSE"/>
+            <StringItem index="12" value="STROMTUBE"/>
+            <StringItem index="13" value="DOWNTOWN"/>
+            <StringItem index="14" value="MIDTOWN"/>
+            <StringItem index="15" value="OUTPOST"/>
+            <StringItem index="16" value="HOSPITAL"/>
+            <StringItem index="17" value="CEMETERY"/>
+            <StringItem index="18" value="GUSTAV"/>
+            <StringItem index="19" value="AIRPORT"/>
+            <StringItem index="20" value="BREAKDOWN"/>
+            <StringItem index="21" value="HELISPOT"/>
+            <StringItem index="22" value="BLACKPANTHER"/>
+            <StringItem index="23" value="DINONEST"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="mapboxComponentAdded"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mapboxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="modebox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="17">
+            <StringItem index="0" value="GAME MODE"/>
+            <StringItem index="1" value="DEATHMATCH"/>
+            <StringItem index="2" value="BOMBMISSION"/>
+            <StringItem index="3" value="ELIMINATE"/>
+            <StringItem index="4" value="CROSSCOUNTER"/>
+            <StringItem index="5" value="ALLYMODE"/>
+            <StringItem index="6" value="DESTROY"/>
+            <StringItem index="7" value="MADNESS"/>
+            <StringItem index="8" value="ACEMODE"/>
+            <StringItem index="9" value="SHOTGUN"/>
+            <StringItem index="10" value="SNIPER"/>
+            <StringItem index="11" value="KNUCKLE"/>
+            <StringItem index="12" value="DEFENSEMISSION"/>
+            <StringItem index="13" value="HEADHUNTER"/>
+            <StringItem index="14" value="SPACE"/>
+            <StringItem index="15" value="CONVOY"/>
+            <StringItem index="16" value="FREEFORALL"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="modeboxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="weaponbox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="29">
+            <StringItem index="0" value="WEAPON"/>
+            <StringItem index="1" value="AUG-A3"/>
+            <StringItem index="2" value="AK-47"/>
+            <StringItem index="3" value="F2000"/>
+            <StringItem index="4" value="M4A1"/>
+            <StringItem index="5" value="SC-2010"/>
+            <StringItem index="6" value="PINDAD SSV2"/>
+            <StringItem index="7" value="TAR-21"/>
+            <StringItem index="8" value="SS2-V4 PARASNIPER"/>
+            <StringItem index="9" value="AK SOPMOD"/>
+            <StringItem index="10" value="K-2"/>
+            <StringItem index="11" value="P90"/>
+            <StringItem index="12" value="P90 M.C"/>
+            <StringItem index="13" value="KRISS S.V"/>
+            <StringItem index="14" value="OA-93"/>
+            <StringItem index="15" value="MP7"/>
+            <StringItem index="16" value="SPECTRE"/>
+            <StringItem index="17" value="MP5K"/>
+            <StringItem index="18" value="K-1"/>
+            <StringItem index="19" value="BARRET M84A1"/>
+            <StringItem index="20" value="RANGEMASTER 338"/>
+            <StringItem index="21" value="TACTILITE-T2"/>
+            <StringItem index="22" value="CHEYTAC M2000"/>
+            <StringItem index="23" value="L115A1"/>
+            <StringItem index="24" value="DRAGUNOV"/>
+            <StringItem index="25" value="PSG1"/>
+            <StringItem index="26" value="SSG-69"/>
+            <StringItem index="27" value="WALTHER2000"/>
+            <StringItem index="28" value="MX-2010"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="weaponboxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="descbox">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Text Cursor"/>
+            </Property>
+          </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleParent" type="javax.accessibility.Accessible" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="descbox"/>
+            </Property>
+          </AccessibilityProperties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="resetb">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RESET"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="resetbActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="exitb">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="EXIT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exitbActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="charbox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="13">
+            <StringItem index="0" value="CHARACTER"/>
+            <StringItem index="1" value="ACID POL"/>
+            <StringItem index="2" value="KEEN EYES"/>
+            <StringItem index="3" value="LEOPARD"/>
+            <StringItem index="4" value="HIDE"/>
+            <StringItem index="5" value="CHOU"/>
+            <StringItem index="6" value="WOLF"/>
+            <StringItem index="7" value="RED BULLS"/>
+            <StringItem index="8" value="TARANTULA"/>
+            <StringItem index="9" value="D-FOX"/>
+            <StringItem index="10" value="VIPER RED"/>
+            <StringItem index="11" value="RICA"/>
+            <StringItem index="12" value="CAYMAN GREY"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="charboxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
